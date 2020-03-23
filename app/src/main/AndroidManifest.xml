@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.realestate_2">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,5 +23,13 @@
         <activity android:name=".MainActivity">
         </activity>
     </application>
+
+
+    <!--    facebook login permission-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!--    facebook login settings -->
+    <meta-data android:name="com.facebook.sdk.ApplicationId"
+        android:value="@string/facebook_application_id"/>
 
 </manifest>
