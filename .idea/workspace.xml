@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="Nexus 5X" />
+      </config>
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76dc17a5-f207-4bc3-a002-231783f2524c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/realestate_2/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/SplashScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/main_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_croners.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sweet_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/within_sweet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/realestate_2/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/ds_lab_codes/lab10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/ds_lab_codes/lab8_evalpostfix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/ds_lab_codes/lab9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/ds_lab_codes/last_eval_prac.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/ds_lab_codes/quick_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/dsa/class_codes/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/dsa/class_codes/2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/dsa/class_codes/BinTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/dsa/class_codes/PriorityQueue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/dsa/class_codes/binarysearchtree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/dsa/class_codes/deque.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/dsa/class_codes/dequewithlist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/dsa/class_codes/heap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/dsa/class_codes/insertionsort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/dsa/class_codes/priorityqueuewithlist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/dsa/class_codes/queues.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/dsa/class_codes/queuewithlinkedlist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/dsa/class_codes/queuewithlist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/app/src/androidTest/java/com/example/chatapp/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/app/src/androidTest/java/com/example/chatapp/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/FriendlyMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/FriendlyMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/MessageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/java/com/example/chatapp/MessageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/app/src/main/res/layout/item_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/layout/item_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatApp/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatApp/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/androidTest/java/com/example/realestate2/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/java/com/example/realestate2/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/drawable/main_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/app/src/test/java/com/example/realestate2/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RealEstate2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/.idea/ShadowRun.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/.idea/_gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/.idea/_gitignore(1)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/.idea/libraries/R_User_Library.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/.idea/rSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/build/playgame2/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/build/playgame2/COLLECT-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/build/playgame2/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/build/playgame2/PKG-00.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/build/playgame2/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/build/playgame2/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/build/playgame2/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/build/playgame2/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/build/playgame2/playgame2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/build/playgame2/warn-playgame2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/build/playgame2/xref-playgame2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/bwbg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/dist/playgame2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/enemy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/exit_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/game.mpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/gamewindow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/ingame.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/intro.mpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/main.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/media.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/opt_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/out.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/play_btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/playgame2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/playgame2.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/runnerfor2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShadowRun/sbg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/attention/Attention_Basics.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/attention/Attention_Basics_Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/attention/images/Context_vector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/attention/images/scoring_functions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/attention/images/softmax.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/convolutional-autoencoder/Convolutional_Autoencoder_Exercise.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/convolutional-autoencoder/Convolutional_Autoencoder_Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/convolutional-autoencoder/Upsampling_Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/convolutional-autoencoder/notebook_ims/autoencoder_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/convolutional-autoencoder/notebook_ims/autoencoder_denoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/convolutional-autoencoder/notebook_ims/compressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/convolutional-autoencoder/notebook_ims/conv_enc_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/convolutional-autoencoder/notebook_ims/conv_enc_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/convolutional-autoencoder/notebook_ims/convolutional_autoencoder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/convolutional-autoencoder/notebook_ims/denoising.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/convolutional-autoencoder/notebook_ims/mnist_examples.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/denoising-autoencoder/Denoising_Autoencoder_Exercise.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/denoising-autoencoder/Denoising_Autoencoder_Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/denoising-autoencoder/notebook_ims/autoencoder_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/denoising-autoencoder/notebook_ims/autoencoder_denoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/denoising-autoencoder/notebook_ims/compressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/denoising-autoencoder/notebook_ims/denoising.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/denoising-autoencoder/notebook_ims/mnist_examples.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/linear-autoencoder/Simple_Autoencoder_Exercise.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/linear-autoencoder/Simple_Autoencoder_Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/linear-autoencoder/notebook_ims/autoencoder_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/linear-autoencoder/notebook_ims/autoencoder_denoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/linear-autoencoder/notebook_ims/compressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/linear-autoencoder/notebook_ims/denoising.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/linear-autoencoder/notebook_ims/mnist_examples.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/autoencoder/linear-autoencoder/notebook_ims/simple_autoencoder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/batch-norm/Batch_Normalization.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/cycle-gan/CycleGAN_Exercise.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/cycle-gan/CycleGAN_Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/cycle-gan/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/cycle-gan/notebook_images/CycleGAN_loss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/cycle-gan/notebook_images/XY_season_images.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/cycle-gan/notebook_images/cycle_consistency_ex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/cycle-gan/notebook_images/cyclegan_generator_ex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/cycle-gan/notebook_images/discriminator_layers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/cycle-gan/notebook_images/horse2zebra.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/cycle-gan/notebook_images/reconstruction_error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/cycle-gan/notebook_images/resnet_50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/cycle-gan/notebook_images/resnet_block.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/cycle-gan/notebook_images/sample-004000-summer2winter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/cycle-gan/notebook_images/training_cycle_ex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/cycle-gan/samples_cyclegan/samples_dir.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/dcgan-svhn/DCGAN_Exercise.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/dcgan-svhn/DCGAN_Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/dcgan-svhn/assets/SVHN_examples.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/dcgan-svhn/assets/conv_discriminator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/dcgan-svhn/assets/conv_generator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/dcgan-svhn/assets/svhn_dcgan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/gan-mnist/MNIST_GAN_Exercise.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/gan-mnist/MNIST_GAN_Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/gan-mnist/assets/gan_network.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/gan-mnist/assets/gan_pipeline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/gan-mnist/assets/leaky_relu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/gan-mnist/assets/tanh_fn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/Part 1 - Tensors in PyTorch (Exercises).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/Part 1 - Tensors in PyTorch (Solution).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/Part 2 - Neural Networks in PyTorch (Exercises).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/Part 2 - Neural Networks in PyTorch (Solution).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/Part 3 - Training Neural Networks (Exercises).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/Part 3 - Training Neural Networks (Solution).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/Part 4 - Fashion-MNIST (Exercises).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/Part 4 - Fashion-MNIST (Solution).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/Part 5 - Inference and Validation (Exercises).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/Part 5 - Inference and Validation (Solution).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/Part 6 - Saving and Loading Models.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/Part 7 - Loading Image Data (Exercises).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/Part 7 - Loading Image Data (Solution).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/Part 8 - Transfer Learning (Exercises).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/Part 8 - Transfer Learning (Solution).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/ImageNet_example.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/Pooling_Simple_max.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/activation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/autoencoder_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/backprop_diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/cat.70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/cat_cropped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/conv_net.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/dog.128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/dog_cat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/examples_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/fashion-mnist-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/full_padding_no_strides_transposed.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/function_approx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/gradient_descent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/image_distribution.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/infographic.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/lenet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/mlp_mnist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/mnist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/multilayer_diagram_weights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/network_diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/overfitting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/padding_strides.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/simple_neuron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/tensor_examples.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/test_examples.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/train_examples.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/assets/w1_backprop_graph.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/fc_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/intro-to-pytorch/helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/IMDB-keras/IMDB_In_Keras.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/IMDB-keras/IMDB_In_Keras_Solutions.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/cifar10-augmentation/aug_model.weights.best.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/cifar10-augmentation/cifar10_augmentation.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/cifar10-classification/MLP.weights.best.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/cifar10-classification/cifar10_cnn.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/cifar10-classification/cifar10_mlp.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/cifar10-classification/model.weights.best.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/mnist-mlp/mnist.model.best.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/mnist-mlp/mnist_mlp.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/student-admissions-keras/StudentAdmissionsKeras.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/student-admissions-keras/student_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/transfer-learning/bottleneck_features.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/transfer-learning/bottleneck_features/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/transfer-learning/dogvgg16.weights.best.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/transfer-learning/figures/vgg16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/transfer-learning/figures/vgg16_transfer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/transfer-learning/images/American_water_spaniel_00648.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/transfer-learning/images/Brittany_02625.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/transfer-learning/images/Curly-coated_retriever_03896.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/transfer-learning/images/Labrador_retriever_06449.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/transfer-learning/images/Labrador_retriever_06455.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/transfer-learning/images/Labrador_retriever_06457.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/transfer-learning/images/Welsh_springer_spaniel_08203.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/transfer-learning/images/sopa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/keras/transfer-learning/transfer_learning.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/sentiment-rnn/Sentiment_RNN_Exercise.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/sentiment-rnn/Sentiment_RNN_Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/sentiment-rnn/assets/network_diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/sentiment-rnn/assets/outliers_padding_ex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/sentiment-rnn/assets/reviews_ex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/sentiment-rnn/data/labels.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/sentiment-rnn/data/reviews.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/style-transfer/Style_Transfer_Exercise.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/style-transfer/Style_Transfer_Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/style-transfer/images/ben_passmore.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/style-transfer/images/delaunay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/style-transfer/images/hockney.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/style-transfer/images/janelle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/style-transfer/images/kahlo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/style-transfer/images/magritte.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/style-transfer/images/octavia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/style-transfer/images/octopus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/style-transfer/images/sotomayor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/style-transfer/images/space_needle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/style-transfer/notebook_ims/style_tx_cat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/style-transfer/notebook_ims/vgg19_convlayers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/tensorflow/intro-to-tensorflow/environment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/tensorflow/intro-to-tensorflow/environment_win.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/tensorflow/intro-to-tensorflow/image/Learn_Rate_Tune_Image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/tensorflow/intro-to-tensorflow/image/Mean_Variance_Image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/tensorflow/intro-to-tensorflow/image/network_diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/tensorflow/intro-to-tensorflow/image/notmnist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/tensorflow/intro-to-tensorflow/intro_to_tensorflow.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/tensorflow/intro-to-tensorflow/intro_to_tensorflow_solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/tensorflow/intro-to-tensorflow/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/transfer-learning/Transfer_Learning_Exercise.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/transfer-learning/Transfer_Learning_Solution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bertelsman/deep-learning-v2-pytorch-master/transfer-learning/notebook_ims/vgg_16_architecture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/Cargo.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/src/main.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/.rustc_info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/.cargo-lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/.fingerprint/cl6_task-bcc436bd8bd63a98/bin-cl6_task-bcc436bd8bd63a98" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/.fingerprint/cl6_task-bcc436bd8bd63a98/bin-cl6_task-bcc436bd8bd63a98.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/.fingerprint/cl6_task-bcc436bd8bd63a98/dep-bin-cl6_task-bcc436bd8bd63a98" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/.fingerprint/cl6_task-bcc436bd8bd63a98/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/cl6_task" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/cl6_task.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/deps/cl6_task-bcc436bd8bd63a98" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/deps/cl6_task-bcc436bd8bd63a98.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/13ybeqpymftzsv39.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/15d0yeh1iokpg7yf.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/17k0p9wckjm4q0sl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/1ditp6og2thogo14.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/1g0gtcizpug5y7pr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/1ipz5waft920lnon.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/1j56xnpzizuib0nm.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/1j6q8pk6sw557g0n.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/1kelz03fzund1860.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/1nn664a738h2hi53.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/1r1fu5ohqxbo32d0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/1tcfl0bu97ycd4ls.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/214zlze69vjo4yxt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/257lccv13km16no9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/29ggfb2gs7iq5oce.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/29l67j9in77pb7o1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/2avw9dst0zy18a9e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/2bswyhb15ea6r7ia.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/2bw4fu8xxnc8e7e1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/2jjldlt2wnhjoyz1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/2midt8q9l7e1s27j.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/2w2tw3m7hwq9axsu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/321hic1tgnmwq7nk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/3it3qftpjr2e9l1p.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/3lbw4xjrb118j1xx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/3sl4u02a10y31m6a.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/3tahsh8vecaqpgkr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/44x582xkytw27o9l.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/44zwpj7k8qqjp8lo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/4505w5ta5zucbz2z.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/48sm4zf4wt10801v.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/4fc0chrd1v5mm74b.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/4k9re81jt8o3bfyh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/4n3bg8vo7vv4wirv.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/4ndpe3kkbohb2l2i.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/4p3mb4frzfgm3c7p.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/4sa0n3wkd75712a7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/4t68iesk4127lwur.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/4vkmxmp93o4fnyab.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/4ztigni1yfc7yle0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/5cw8dwxfgkdtc6tj.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/5dj7ygn4jpi7x2xv.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/5eoq72p0r8htx32o.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/6bjhjkukqvghu1g.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/7locpg1n5lhmg1p.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/h7k9iawc5hth9fq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/u0x07yphs87kz3h.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/ua84grlg88suahy.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/up0zivsasthrewr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp-alkpl3cjb28u/x5wqh7t4um2pfqr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cl6_task/target/debug/incremental/cl6_task-2qdfsevv2etoe/s-fj8207yrti-18lwqvp.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa_projs/ldst/ghostfix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa_projs/ldst/true2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa_projs/ldst/true_fix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dsa_projs/playpause/playgame20verlap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flask_try/2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flask_try/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flask_try/templates/a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../integrated/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../integrated/check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../integrated/ingame.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../integrated/main.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kickstart_2020/a.py" beforeDir="false" afterPath="$PROJECT_DIR$/../kickstart_2020/a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kickstart_2020/b.py" beforeDir="false" afterPath="$PROJECT_DIR$/../kickstart_2020/b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kickstart_2020/c.py" beforeDir="false" afterPath="$PROJECT_DIR$/../kickstart_2020/c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kickstart_2020/kickstart_alarm1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../kickstart_2020/kickstart_alarm1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kickstart_2020/kickstart_alarm2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../kickstart_2020/kickstart_alarm2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kickstart_2020/training.py" beforeDir="false" afterPath="$PROJECT_DIR$/../kickstart_2020/training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mod2-sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../omer/f2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv/bgr2hsv.py" beforeDir="false" afterPath="$PROJECT_DIR$/../opencv/bgr2hsv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv/masking.py" beforeDir="false" afterPath="$PROJECT_DIR$/../opencv/masking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opencv/single pixel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../opencv/single pixel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pacman/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projinterface/image_to_retrieve/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projinterface/static/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projinterface/templates/a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_work/google_sheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_work/google_sheet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_work/gtts.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_work/gtts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_work/py_speech.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_work/py_speech.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_work/speech_recongition.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_work/speech_recongition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_work/stack_overflow.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_work/stack_overflow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_work/tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_work/tester.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_work/tiny-video.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_work/tiny-video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_work/video.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_work/video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_work/watsapp2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_work/watsapp2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_work/whatsapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_work/whatsapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_work/yolo-tiny.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_work/yolo-tiny.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_work/yolo-video.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_work/yolo-video.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="21a8dc28" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="111" column="39" selection-start-line="111" selection-start-column="39" selection-end-line="111" selection-end-column="39" />
+              <folding>
+                <element signature="e#3682#3710#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="81" column="48" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/sweet_background.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/within_sweet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/SplashScreen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/rounded_corners.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/logo.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/rounded_croners.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/sweet_background.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/within_sweet.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="y" value="25" />
+    <option name="width" value="683" />
+    <option name="height" value="743" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RealEstate_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RealEstate_2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="RealEstate_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RealEstate_2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="RealEstate_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RealEstate_2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RealEstate_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RealEstate_2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RealEstate_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RealEstate_2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RealEstate_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RealEstate_2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="drawable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RealEstate_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RealEstate_2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="drawable-v24" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RealEstate_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RealEstate_2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RealEstate_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RealEstate_2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.recentlyUsedThemes" value="android:Theme.Light" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="settings.editor.selected.configurable" value="memory.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.example.realestate_2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76dc17a5-f207-4bc3-a002-231783f2524c" name="Default Changelist" comment="" />
+      <created>1584877334193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584877334193</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1366" height="743" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" sideWeight="0.49915683" weight="0.19847329" />
+      <window_info id="Structure" sideWeight="0.50084317" side_tool="true" weight="0.19847329" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Android Profiler" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50076336" side_tool="true" weight="0.10455312" />
+      <window_info anchor="bottom" id="Build" sideWeight="0.49923664" weight="0.10455312" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Preview" weight="0.45419848" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19847329" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Build Variants" order="6" side_tool="true" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Captures" order="8" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Logcat" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50076336" side_tool="true" visible="true" weight="0.10455312" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49923664" visible="true" weight="0.10455312" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info active="true" anchor="right" id="Preview" order="4" visible="true" weight="0.32977098" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/rounded_corners.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="28" lean-forward="true" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/SplashScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#682#1014#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/logo.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/rounded_croners.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/sweet_background.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/within_sweet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="81" column="48" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="111" column="39" selection-start-line="111" selection-start-column="39" selection-end-line="111" selection-end-column="39" />
+          <folding>
+            <element signature="e#3682#3710#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
