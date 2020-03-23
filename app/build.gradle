@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 29
@@ -27,13 +28,16 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'androidx.cardview:cardview:1.0.0'
+
+
     //for seting circled images
     implementation 'de.hdodenhof:circleimageview:3.0.1'
     //firebase
+    implementation 'com.google.firebase:firebase-core:9.6.1'
     implementation 'com.google.firebase:firebase-analytics:17.2.2' //analytics
     implementation 'com.google.firebase:firebase-database:19.2.1' //database
     implementation 'com.google.firebase:firebase-auth:19.3.0'//seting authentication
-    implementation 'com.google.android.gms:play-services-auth:17.0.0' // setting google authentication
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'// setting google authentication
     implementation 'com.firebaseui:firebase-ui-auth:6.2.0'// authentication UI
     implementation 'com.facebook.android:facebook-android-sdk:5.15.3' //for facebook authentication
     implementation 'com.google.firebase:firebase-storage:19.1.1'// for storage
@@ -44,5 +48,6 @@ dependencies {
     implementation "com.google.android.gms:play-services-maps:16.1.0"
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
     implementation 'com.google.android.gms:play-services-location:17.0.0'
+
 
 }

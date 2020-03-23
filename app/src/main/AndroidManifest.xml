@@ -2,7 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.realestate_2">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- facebook login permission -->
+    <meta-data
+        android:name="com.facebook.sdk.ApplicationId"
+        android:value="@string/facebook_application_id" />
 
     <application
         android:allowBackup="true"
@@ -11,6 +14,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Signin"></activity>
         <activity
             android:name=".SplashScreen"
             android:screenOrientation="portrait">
@@ -20,16 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
-
-
-    <!--    facebook login permission-->
-    <uses-permission android:name="android.permission.INTERNET"/>
-
-    <!--    facebook login settings -->
-    <meta-data android:name="com.facebook.sdk.ApplicationId"
-        android:value="@string/facebook_application_id"/>
 
 </manifest>
