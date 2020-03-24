@@ -8,91 +8,17 @@
     android:background="@color/splash_background">
 
 
-    <RelativeLayout
-        android:layout_width="105dp"
-        android:layout_height="56dp"
-        android:background="@drawable/rounded_croners"
-        android:textAlignment="center"
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="252dp"
+        android:src="@drawable/splah_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.10"
+        app:layout_constraintHorizontal_bias="0.36"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.44">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="3dp"
-            android:text="home"
-            android:textAlignment="center"
-            android:textColor="@color/maron"
-            android:textSize="30dp"
-            android:textStyle="bold" />
-
-    </RelativeLayout>
-
-
-    <RelativeLayout
-        android:layout_width="118dp"
-        android:layout_height="56dp"
-        android:background="@drawable/sweet_background"
-        android:textAlignment="center"
-        android:padding="6dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.44">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/within_sweet"
-            android:padding="5dp">
-
-
-            <TextView
-                android:id="@+id/sweet"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/sweet_background"
-                android:text="sweet"
-                android:layout_marginTop="-5dp"
-                android:textAlignment="center"
-                android:textColor="@android:color/white"
-                android:textSize="28dp"
-                android:textStyle="bold" />
-        </RelativeLayout>
-
-    </RelativeLayout>
-
-
-    <RelativeLayout
-        android:layout_width="105dp"
-        android:layout_height="56dp"
-        android:background="@drawable/rounded_croners"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.94"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.44">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="3dp"
-            android:text="home"
-            android:textAlignment="center"
-            android:textColor="@color/maron"
-            android:textSize="30dp"
-            android:textStyle="bold" />
-
-    </RelativeLayout>
-
+        app:layout_constraintVertical_bias="0.42000002" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -67,7 +67,7 @@ public class Signin extends AppCompatActivity {
                                     .setAvailableProviders(providers)
                                     .setIsSmartLockEnabled(false)
                                     .setTheme(R.style.siginin_theme)
-                                    .setLogo(R.drawable.hsh_logo)
+                                    .setLogo(R.drawable.splah_logo)
                                     .build(),
                             1);
                 }
