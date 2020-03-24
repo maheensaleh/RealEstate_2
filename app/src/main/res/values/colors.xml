@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#FFFFFF</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">@color/maron</color>
     <color name="main_blue">#580606</color>
     <color name="splash_background">#FFFFFF</color>
     <color name="maron">#A21313</color>

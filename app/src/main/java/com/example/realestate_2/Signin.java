@@ -6,16 +6,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Toast;
 
 import com.firebase.ui.auth.AuthUI;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.storage.StorageReference;
-import com.google.firebase.storage.UploadTask;
 
 import java.util.Arrays;
 import java.util.List;
@@ -70,6 +66,8 @@ public class Signin extends AppCompatActivity {
                                     .createSignInIntentBuilder()
                                     .setAvailableProviders(providers)
                                     .setIsSmartLockEnabled(false)
+                                    .setTheme(R.style.siginin_theme)
+                                    .setLogo(R.drawable.hsh_logo)
                                     .build(),
                             1);
                 }
