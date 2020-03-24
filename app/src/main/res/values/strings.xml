@@ -4,10 +4,8 @@
         <u>signin to continue</u>
     </string>
 
-    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
-    <string name="facebook_application_id" translatable="false">214004913180194
-</string>
-    <string name="facebook_login_protocol_scheme" translatable="false">fb214004913180194</string>
+    <string name="facebook_application_id">214004913180194</string>
+    <string name="fb_login_protocol_scheme">fb214004913180194</string>
 
 
 </resources>

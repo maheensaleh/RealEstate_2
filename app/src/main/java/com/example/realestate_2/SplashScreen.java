@@ -35,10 +35,10 @@ public class SplashScreen extends Activity {
         //authentication instance
         firebaseAuth = FirebaseAuth.getInstance(); // initiate the authentication objject
         //authentication providers list
-        final List<AuthUI.IdpConfig> providers = Arrays.asList(
-                new AuthUI.IdpConfig.GoogleBuilder().build(),
-                new AuthUI.IdpConfig.FacebookBuilder().build()
-        );
+//        final List<AuthUI.IdpConfig> providers = Arrays.asList(
+//                new AuthUI.IdpConfig.GoogleBuilder().build(),
+//                new AuthUI.IdpConfig.FacebookBuilder().build()
+//        );
         //authentication listener
         firebaseAuthStateListener = new FirebaseAuth.AuthStateListener() {
             @Override
@@ -52,7 +52,9 @@ public class SplashScreen extends Activity {
                     //means user signed in
 //                    onSignIn(current_user.getDisplayName());
 //                    Toast.makeText(MainActivity.this," sign in successful !",Toast.LENGTH_LONG).show();
+                    String profilepic_uri = current_user.getPhotoUrl().toString();
                     mainintent = new Intent(SplashScreen.this,MainActivity.class);
+                    mainintent.putExtra("profilepic_uri",profilepic_uri);
                     System.out.println("yes");
 
 

@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -47,8 +48,11 @@ public class Signin extends AppCompatActivity {
                 if (current_user!= null){
                     //means user signed in
 //                    onSignIn(current_user.getDisplayName());
+                    String profilepic = current_user.getPhotoUrl().toString();
+                    System.out.println(profilepic);
                     Toast.makeText(Signin.this," sign in successful !",Toast.LENGTH_LONG).show();
                     fromsigin = new Intent(Signin.this,MainActivity.class);
+                    fromsigin.putExtra("profilepic_uri",profilepic);
                     Signin.this.startActivity(fromsigin);
                     System.out.println("yes");
                     Signin.this.finish();
