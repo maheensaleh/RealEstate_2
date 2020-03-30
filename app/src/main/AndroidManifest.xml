@@ -2,10 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.realestate_2">
 
-    <uses-permission android:name="android.permission.INTERNET" /> <!-- facebook login permission -->
-    <meta-data
-        android:name="com.facebook.sdk.ApplicationId"
-        android:value="214004913180194" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <!-- facebook login permission -->
+
+
 
     <application
         android:allowBackup="true"
@@ -14,7 +19,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".SetPropLocation"></activity>
+        <activity android:name=".PropSellForm" />
         <activity android:name=".Signin" />
         <activity
             android:name=".SplashScreen"
@@ -42,6 +48,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
+
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBh8cFstPxWK5WQ9t0tjCWSjGTVICGIWG4" />
     </application>
 
+    <meta-data
+        android:name="com.facebook.sdk.ApplicationId"
+        android:value="214004913180194" />
 </manifest>

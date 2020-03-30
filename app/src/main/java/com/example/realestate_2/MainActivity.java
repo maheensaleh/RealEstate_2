@@ -40,44 +40,26 @@ public class MainActivity extends AppCompatActivity
     public PageAdapter pageadapter;
     private Toolbar mytoolbar;
     TextView username;
-    private ImageView profilepic;
+    String profilepic_uri;
+    private ImageView profilepic_view;
 
 
-    // for option menus
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
 
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu1,menu);
-        return super.onCreateOptionsMenu(menu);
-
-
-    }
-
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.logout:
-                Toast.makeText(MainActivity.this, "you presses  log out", Toast.LENGTH_SHORT).show();
-                return true;
-            default:
-                return super.onContextItemSelected(item);
-        }
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent taker = getIntent();
-        String profilepic_uri = taker.getStringExtra("profilepic_uri");
 
-        profilepic = (ImageView) findViewById(R.id.profile_image);
-        Glide.with(profilepic.getContext())
+        Intent taker = getIntent();
+        profilepic_uri = taker.getStringExtra("profilepic_uri");
+        Toast.makeText(MainActivity.this,"hello"+profilepic_uri,Toast.LENGTH_SHORT).show();
+
+        profilepic_view = (ImageView) findViewById(R.id.profile_image);
+        Glide.with(profilepic_view.getContext())
                 .load(profilepic_uri)
-                .into(profilepic);
+                .into(profilepic_view);
 
         mytoolbar= (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mytoolbar);   // to set menus options on toolbar
@@ -131,11 +113,46 @@ public class MainActivity extends AppCompatActivity
 
     public void add_sell_prop(View view) {
         Toast.makeText(MainActivity.this,"add a property",Toast.LENGTH_SHORT).show();
+        Intent gotosell_form = new Intent(MainActivity.this,PropSellForm.class);
+        startActivity(gotosell_form);
+    }
+
+    public void searchmap(View view) {
+//        final Intent buy = new Intent(MainActivity.this, buyer.class);
+//        startActivity(buy);
+        Toast.makeText(MainActivity.this,"Search a property",Toast.LENGTH_SHORT).show();
+    }
+
+    // for option menus
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu1,menu);
+        return super.onCreateOptionsMenu(menu);
+
+
     }
 
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.logout:
+                Toast.makeText(MainActivity.this, "you presses  log out", Toast.LENGTH_SHORT).show();
+                return true;
+            default:
+                return super.onContextItemSelected(item);
+        }
+    }
+
+
+    @Override
+    protected void onPostResume() {
+        super.onPostResume();
 
     }
+}
 
 
 

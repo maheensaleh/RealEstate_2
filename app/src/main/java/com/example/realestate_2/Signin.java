@@ -21,15 +21,16 @@ public class Signin extends AppCompatActivity {
     private FirebaseAuth firebaseAuth;
     private FirebaseAuth.AuthStateListener firebaseAuthStateListener;
     private Intent fromsigin;
+    private String profilepic;
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin);
 
 
-        //authentication instance
+        //authentication instanceprotected
         firebaseAuth = FirebaseAuth.getInstance(); // initiate the authentication objject
         //authentication providers list
         final List<AuthUI.IdpConfig> providers = Arrays.asList(
@@ -48,13 +49,13 @@ public class Signin extends AppCompatActivity {
                 if (current_user!= null){
                     //means user signed in
 //                    onSignIn(current_user.getDisplayName());
-                    String profilepic = current_user.getPhotoUrl().toString();
-                    System.out.println(profilepic);
+                    profilepic = current_user.getPhotoUrl().toString();
+                    System.out.println("scsc"+profilepic);
                     Toast.makeText(Signin.this," sign in successful !",Toast.LENGTH_LONG).show();
                     fromsigin = new Intent(Signin.this,MainActivity.class);
                     fromsigin.putExtra("profilepic_uri",profilepic);
                     Signin.this.startActivity(fromsigin);
-                    System.out.println("yes");
+                    System.out.println("yes"+profilepic);
                     Signin.this.finish();
 
 
