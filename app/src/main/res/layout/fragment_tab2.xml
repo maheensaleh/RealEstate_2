@@ -11,12 +11,19 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true">
         <ListView
-            android:id="@+id/listViewsell"
+            android:id="@+id/tab2_list"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
         </ListView>
     </LinearLayout>
+
+<!--    <TextView-->
+<!--        android:id="@+id/tester"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="10dp"-->
+<!--        android:textColor="@color/maron"/>-->
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/add_sell_property"

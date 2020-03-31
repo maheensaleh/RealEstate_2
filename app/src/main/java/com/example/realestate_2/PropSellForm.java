@@ -26,6 +26,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
@@ -62,10 +63,11 @@ public class PropSellForm extends AppCompatActivity {
     private Uri img1_uri, img2_uri,fb_img1_uri,fb_img2_uri;
 
     //firebase
-    private FirebaseDatabase firebaseDatabase;
-    private DatabaseReference databaseReference;
+    public FirebaseDatabase firebaseDatabase;
+    public DatabaseReference databaseReference;
     private FirebaseStorage firebaseStorage;
     private StorageReference storageReference;
+    private FirebaseAuth firebaseAuth;
 
 
 
@@ -76,8 +78,9 @@ public class PropSellForm extends AppCompatActivity {
         setContentView(R.layout.activity_prop_sell_form);
 
         //firebase instances
+        firebaseAuth = FirebaseAuth.getInstance();
         firebaseDatabase = FirebaseDatabase.getInstance();
-        databaseReference = firebaseDatabase.getReference().child("prop_for_sell");
+        databaseReference = firebaseDatabase.getReference().child(firebaseAuth.getUid());
         firebaseStorage = FirebaseStorage.getInstance();
         storageReference = firebaseStorage.getReference().child("sell_media");
 
@@ -383,6 +386,11 @@ public class PropSellForm extends AppCompatActivity {
 
     }
 
+    public FirebaseDatabase getFirebaseDatabase() {
+        return firebaseDatabase;
+    }
 
-
+    public DatabaseReference getDatabaseReference() {
+        return databaseReference;
+    }
 }

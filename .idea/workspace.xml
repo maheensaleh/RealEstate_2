@@ -13,7 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="76dc17a5-f207-4bc3-a002-231783f2524c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/gc.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
@@ -61,17 +63,8 @@
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/RealEstate_2.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/PropSellForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/SellProp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/SetPropLocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/placeapi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/placeautosuggestadapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_camera_alt_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_camera_small_maron.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_my_location_white.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_prop_sell_form.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_set_prop_location.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/map_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/tab2_adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/tab2_listitem.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/ds_lab_codes/lab10.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../CIS-3-FALL-19-20/ds_lab_codes/lab8_evalpostfix.py" beforeDir="false" />
@@ -158,15 +151,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/Signin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/Signin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/PropSellForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/PropSellForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/SplashScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/SplashScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/tab2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/tab2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab2.xml" afterDir="false" />
@@ -498,7 +490,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="level29" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="04268119AW006468" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -540,33 +532,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/PropSellForm.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/tab2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="297" column="96" selection-start-line="297" selection-start-column="96" selection-end-line="297" selection-end-column="96" />
-              <folding>
-                <element signature="e#8428#8970#0" expanded="true" />
-                <element signature="e#8650#8936#0" expanded="true" />
-                <element signature="e#8935#8936#0" expanded="true" />
-                <element signature="e#8969#8970#0" expanded="true" />
-                <element signature="e#9524#10060#0" expanded="true" />
-                <element signature="e#9741#10026#0" expanded="true" />
-                <element signature="e#10025#10026#0" expanded="true" />
-                <element signature="e#10059#10060#0" expanded="true" />
-                <element signature="e#13434#13926#0" expanded="true" />
-                <element signature="e#13639#13900#0" expanded="true" />
-                <element signature="e#13899#13900#0" expanded="true" />
-                <element signature="e#13925#13926#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="152" selection-start-line="152" selection-end-line="152" />
+            <state relative-caret-position="466">
+              <caret line="91" column="21" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -575,70 +544,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/SellProp.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/tab2_adapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            <state relative-caret-position="4">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-                <element signature="e#1069#1070#0" expanded="true" />
-                <element signature="e#1100#1101#0" expanded="true" />
-                <element signature="e#1162#1163#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#828#829#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#912#913#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1030#1031#0" expanded="true" />
-                <element signature="e#1072#1073#0" expanded="true" />
-                <element signature="e#1113#1114#0" expanded="true" />
-                <element signature="e#1150#1151#0" expanded="true" />
-                <element signature="e#1210#1211#0" expanded="true" />
-                <element signature="e#1262#1263#0" expanded="true" />
-                <element signature="e#1297#1298#0" expanded="true" />
-                <element signature="e#1328#1329#0" expanded="true" />
-                <element signature="e#1376#1377#0" expanded="true" />
-                <element signature="e#1416#1417#0" expanded="true" />
-                <element signature="e#1450#1451#0" expanded="true" />
-                <element signature="e#1480#1481#0" expanded="true" />
-                <element signature="e#1526#1527#0" expanded="true" />
-                <element signature="e#1564#1565#0" expanded="true" />
-                <element signature="e#1596#1597#0" expanded="true" />
-                <element signature="e#1624#1625#0" expanded="true" />
-                <element signature="e#1666#1667#0" expanded="true" />
-                <element signature="e#1700#1701#0" expanded="true" />
-                <element signature="e#1731#1732#0" expanded="true" />
-                <element signature="e#1758#1759#0" expanded="true" />
-                <element signature="e#1798#1799#0" expanded="true" />
-                <element signature="e#1830#1831#0" expanded="true" />
-                <element signature="e#1863#1864#0" expanded="true" />
-                <element signature="e#1892#1893#0" expanded="true" />
-                <element signature="e#1936#1937#0" expanded="true" />
-                <element signature="e#1972#1973#0" expanded="true" />
-                <element signature="e#2005#2006#0" expanded="true" />
-                <element signature="e#2034#2035#0" expanded="true" />
-                <element signature="e#2078#2079#0" expanded="true" />
-                <element signature="e#2114#2115#0" expanded="true" />
-                <element signature="e#2146#2147#0" expanded="true" />
-                <element signature="e#2174#2175#0" expanded="true" />
-                <element signature="e#1643#1644#0" expanded="true" />
-                <element signature="e#1677#1678#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_prop_sell_form.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/SplashScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tab2_listitem.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="553" lean-forward="true" selection-start-line="553" selection-end-line="553" />
+            <state relative-caret-position="209">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/PropSellForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-133">
+              <caret line="82" column="89" selection-start-line="82" selection-start-column="89" selection-end-line="82" selection-end-column="89" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#14146#14147#0" expanded="true" />
+                <element signature="e#14185#14186#0" expanded="true" />
+                <element signature="e#14240#14241#0" expanded="true" />
+                <element signature="e#14280#14281#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -648,9 +598,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile_vertical" />
         <option value="resourceFile" />
         <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
@@ -681,19 +631,16 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_signin.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/buy_sell_tab.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/PageAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/tab2.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/tab1.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/SplashScreen.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/placeautosuggestadapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/placeapi.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_set_prop_location.xml" />
@@ -703,6 +650,12 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/SellProp.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_prop_sell_form.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/sell_prop_list_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/tab2_adapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/tab2_listitem.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/tab2.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/PropSellForm.java" />
       </list>
     </option>
@@ -814,7 +767,45 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RealEstate_2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="RealEstate_2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="RealEstate_2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="realestate_2" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RealEstate_2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="RealEstate_2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="RealEstate_2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -981,7 +972,7 @@
       <window_info id="Designer" order="3" />
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49915683" weight="0.27751195" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49915683" visible="true" weight="0.2" />
       <window_info id="Resources Explorer" order="7" weight="0.32695374" />
       <window_info id="Captures" order="8" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Logcat" order="0" weight="0.41821247" />
@@ -992,26 +983,14 @@
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50076336" side_tool="true" weight="0.10455312" />
       <window_info anchor="bottom" id="Build" order="6" sideWeight="0.49923664" weight="0.05059022" />
       <window_info anchor="bottom" id="Android Profiler" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.05059022" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.7453626" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Gradle" order="1" sideWeight="0.49902913" weight="0.32519084" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Preview" order="3" weight="0.67464113" />
+      <window_info anchor="right" id="Preview" order="3" weight="0.42671755" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Device File Explorer" order="5" sideWeight="0.5009709" side_tool="true" weight="0.32519084" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/tab2.java</url>
-          <line>52</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/rounded_corners.xml" />
@@ -1053,14 +1032,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_signin.xml">
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$USER_HOME$/Android/Sdk/sources/android-29/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1105,45 +1076,10 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tab1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/tab1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/tab2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/SplashScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="56" column="73" selection-start-line="56" selection-start-column="73" selection-end-line="56" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1181,14 +1117,6 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tab2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/SetPropLocation.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1229,6 +1157,16 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1238#3107#0" expanded="true" />
             <element signature="e#3106#3107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1298,10 +1236,62 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tab1.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        <state relative-caret-position="114">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/tab1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tab2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tab2_listitem.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/SplashScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/tab2_adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1310,21 +1300,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/PropSellForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="297" column="96" selection-start-line="297" selection-start-column="96" selection-end-line="297" selection-end-column="96" />
+        <state relative-caret-position="-133">
+          <caret line="82" column="89" selection-start-line="82" selection-start-column="89" selection-end-line="82" selection-end-column="89" />
           <folding>
-            <element signature="e#8428#8970#0" expanded="true" />
-            <element signature="e#8650#8936#0" expanded="true" />
-            <element signature="e#8935#8936#0" expanded="true" />
-            <element signature="e#8969#8970#0" expanded="true" />
-            <element signature="e#9524#10060#0" expanded="true" />
-            <element signature="e#9741#10026#0" expanded="true" />
-            <element signature="e#10025#10026#0" expanded="true" />
-            <element signature="e#10059#10060#0" expanded="true" />
-            <element signature="e#13434#13926#0" expanded="true" />
-            <element signature="e#13639#13900#0" expanded="true" />
-            <element signature="e#13899#13900#0" expanded="true" />
-            <element signature="e#13925#13926#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#14146#14147#0" expanded="true" />
+            <element signature="e#14185#14186#0" expanded="true" />
+            <element signature="e#14240#14241#0" expanded="true" />
+            <element signature="e#14280#14281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/realestate_2/tab2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="91" column="21" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
