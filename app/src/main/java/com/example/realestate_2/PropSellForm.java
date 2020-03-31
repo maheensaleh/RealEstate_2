@@ -80,7 +80,7 @@ public class PropSellForm extends AppCompatActivity {
         //firebase instances
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseDatabase = FirebaseDatabase.getInstance();
-        databaseReference = firebaseDatabase.getReference().child(firebaseAuth.getUid());
+        databaseReference = firebaseDatabase.getReference("prop_for_sell").child(firebaseAuth.getUid());
         firebaseStorage = FirebaseStorage.getInstance();
         storageReference = firebaseStorage.getReference().child("sell_media");
 
