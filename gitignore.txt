@@ -1,2 +1,0 @@
-google-services.json
-keys_n_ids.xml
