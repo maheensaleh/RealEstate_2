@@ -4,8 +4,5 @@
         <u>signin to continue</u>
     </string>
 
-    <string name="facebook_application_id">214004913180194</string>
-    <string name="fb_login_protocol_scheme">fb214004913180194</string>
-
 
 </resources>

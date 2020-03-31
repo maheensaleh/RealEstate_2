@@ -1,5 +1,7 @@
 package com.example.realestate_2;
 
+import android.app.Application;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -10,8 +12,9 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
+import com.example.realestate_2.R;
 
-public class placeapi {
+public class placeapi extends Application {
 
     public ArrayList<String> autoComplete(String input){
         ArrayList<String> arrayList=new ArrayList();
@@ -20,7 +23,9 @@ public class placeapi {
         try {
             StringBuilder sb=new StringBuilder("https://maps.googleapis.com/maps/api/place/autocomplete/json?");
             sb.append("input="+input);
-            sb.append("&key=AIzaSyBh8cFstPxWK5WQ9t0tjCWSjGTVICGIWG4");
+            sb.append("&key=");
+            String key = this.getString(R.string.api_key);
+            sb.append(key);
             URL url=new URL(sb.toString());
             connection=(HttpURLConnection)url.openConnection();
             InputStreamReader inputStreamReader=new InputStreamReader(connection.getInputStream());

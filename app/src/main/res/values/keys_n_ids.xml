@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="api_key">AIzaSyBh8cFstPxWK5WQ9t0tjCWSjGTVICGIWG4"</string>
+    <string name="facebook_application_id">214004913180194</string>
+    <string name="fb_login_protocol_scheme">fb214004913180194</string>
+
+
+</resources>
