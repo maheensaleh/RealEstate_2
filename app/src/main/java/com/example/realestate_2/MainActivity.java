@@ -74,35 +74,48 @@ public class MainActivity extends AppCompatActivity
         viewpager = (ViewPager)findViewById(R.id.myviewpager);
 
         pageadapter = new PageAdapter(getSupportFragmentManager(),tablayout.getTabCount());
+        viewpager.setOffscreenPageLimit(1);
         viewpager.setAdapter(pageadapter);
 
-        tablayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-            @Override
-            public void onTabSelected(TabLayout.Tab tab) {
+//        tablayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+//            @Override
+//            public void onTabSelected(TabLayout.Tab tab) {
+//
+//                viewpager.setCurrentItem(tab.getPosition());
+//
+//                if (tab.getPosition()==0){
+//                    System.out.println("one");
+//                    pageadapter.notifyDataSetChanged();
+//                }
+//                else  if (tab.getPosition()==1){
+//                    System.out.println("two");
+//                    pageadapter.notifyDataSetChanged();
+//                }
+//
+//            }
+//
+//            @Override
+//            public void onTabUnselected(TabLayout.Tab tab) {
+//
+//            }
+//
+//            @Override
+//            public void onTabReselected(TabLayout.Tab tab) {
+//
+//            }
+//        });
+//
+        viewpager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tablayout));
 
-                viewpager.setCurrentItem(tab.getPosition());
+        viewpager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            public void onPageScrollStateChanged(int state) {}
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {}
 
-                if (tab.getPosition()==0){
-                    pageadapter.notifyDataSetChanged();
-                }
-                else  if (tab.getPosition()==1){
-                    pageadapter.notifyDataSetChanged();
-                }
+            public void onPageSelected(int position) {
 
-            }
-
-            @Override
-            public void onTabUnselected(TabLayout.Tab tab) {
-
-            }
-
-            @Override
-            public void onTabReselected(TabLayout.Tab tab) {
-
+                System.out.println("position "+position);
             }
         });
-
-        viewpager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tablayout));
 
     }
 

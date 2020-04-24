@@ -70,16 +70,22 @@ tab2 extends Fragment {
         adapter = new tab2_adapter(getContext(),R.layout.tab2_listitem,props);
         mylistview = (ListView) view.findViewById(R.id.tab2_list) ;
         mylistview.setAdapter(adapter);
-
+        System.out.println("this");
         FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
         FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
         DatabaseReference databaseReference = firebaseDatabase.getReference("prop_for_sell").child(firebaseAuth.getUid());
         ChildEventListener childEventListener = new ChildEventListener() {
+            int count = 0;
+//            System.out.
+
             @Override
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
                 SellProp newdata = dataSnapshot.getValue(SellProp.class);
 //                String some = newdata.getAddress();
 //                tester.setText("Address "+some);
+                count+=1;
+                System.out.println("count"+count);
+
                 adapter.add(newdata);
 
             }
